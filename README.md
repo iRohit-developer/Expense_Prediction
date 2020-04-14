@@ -9,7 +9,7 @@
 4)
 ### Exploratory Data Analysis (EDA) - box plot - library(from matplotlib import pyplot as plt), correlation matrix for checking strength of two variables - used library(import seaborn as sns)
 5)
-### Model Building - feature engineering (technique used normalization/scaling data - MinMaxScaler()) - used library(from sklearn.preprocessing import MinMaxScaler(()), converted data to to DataFrame from the mix and max values (0's and 1's) array of the scaled data, divided data into test and train (from sklearn.model_selection import train_test_split,from sklearn.linear_model import Linear Regression, also for the accuracy of the model from sklearn import metrics)
+### Model Building - feature engineering (technique used normalization/scaling data - MinMaxScaler()) - used library(from sklearn.preprocessing import MinMaxScaler(()), converted data to to DataFrame from the min and max values (0's and 1's) array of the scaled data, divided data into test and train (from sklearn.model_selection import train_test_split,from sklearn.linear_model import Linear Regression, also for the accuracy of the model from sklearn import metrics)
 6)
 ### Model Deployment - used web framework flask - used library(import pickle)
 
